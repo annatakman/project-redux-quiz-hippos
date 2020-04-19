@@ -71,9 +71,10 @@ export const CurrentQuestion = () => {
 }
 
 const Question = styled.h1`
-  color: #75a086;
+  color: black;
   font-size: 36px;
   text-align: center;
+  padding: 0 14px;
 `
 const Option = styled.label``
 
@@ -92,16 +93,15 @@ const OptionInput = styled.input`
   font-size: 24px;
   color:#000;
   text-align:center;
-  transition: all 0.2s;
   `
 
 const QuestionContainer = styled.section`
-  width: 550px;
+  width: 650px;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: auto;
   background: #ffffff56;
-  border-radius:0.12em;
   `
